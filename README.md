@@ -30,7 +30,7 @@ This is a solution to the [Testimonials grid section challenge on Frontend Mento
    I use HTML and CSS to build this design
 
   - [What I learned](#what-i-learned)
-    I had to learn more about the flex property in CSS because this property is a major fundamental factor neccessary for the birth of my design.
+    I had to learn more about the Grid property in CSS because this property is a major fundamental factor neccessary for the birth of my design.
 
   - [Continued development](#continued-development)
      i'm open to learning and improvement and also to work on future projects in [FrontendMentor]

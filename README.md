@@ -17,7 +17,7 @@ This is a solution to the [Testimonials grid section challenge on Frontend Mento
     You will find all the required assets in the `/images` and `/design` folder. The assets are already optimized.
 
   - [Links](#links)
-     - Solution URL:   [ https://github.com/ajormoses/testimonals-grid-section.git ]
+     - Solution URL:   [ https://github.com/ajormoses/testimonials-grid-section.git ]
     - Live Site URL:  [ https://ajormoses.github.io/testimonals-grid-section/ ]
 
 - [My process](#my-process)

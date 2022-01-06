@@ -18,7 +18,7 @@ This is a solution to the [Testimonials grid section challenge on Frontend Mento
 
   - [Links](#links)
      - Solution URL:   [ https://github.com/ajormoses/testimonials-grid-section.git ]
-    - Live Site URL:  [ https://ajormoses.github.io/testimonals-grid-section/ ]
+    - Live Site URL:  [ https://ajormoses.github.io/testimonials-grid-section/ ]
 
 - [My process](#my-process)
     1. I started by looking through the designs to start planning out how i will tackle the project. 

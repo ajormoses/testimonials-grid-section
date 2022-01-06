@@ -1,0 +1,148 @@
+body {
+    justify-content: center;
+    align-items: center;
+    font-size: 13px;
+    overflow-x: hidden;
+    font-family: 'Barlow Semi Condensed', sans-serif;
+    background-color: hsl(210, 46%, 95%);
+}
+
+.main {
+    padding: 20px 10px 10px 20px;
+    display: grid;
+    gap: 1.5rem;
+    /* grid-template-areas: 
+     'one'
+     'two'
+     'three'
+     'four'
+     'five'; */
+     
+}
+
+.container {
+    border-radius: 10px;
+    padding: 20px 30px 20px 30px;
+}
+
+.header-container {
+    display: flex;
+    align-items: center;
+} 
+
+.img-header img {
+    border-radius: 50%;
+    height: 40px;
+    width: 40px;
+}
+
+.img-text {
+    line-height: 5px;
+    padding-left: 15px;
+}
+
+.img-text p {
+    color:  hsl(0, 0%, 81%);
+    font-size: 11px;
+}
+
+.img-text h1 {
+    font-size: 15px;
+}
+
+.text-body h1 {
+    font-size: 21px;
+    color: hsl(0, 0%, 100%);
+}
+
+.text-body p {
+    font-size: 14px;
+    color: hsl(0, 0%, 81%);
+    line-height: 20px;
+}
+
+#container-one {
+    background: url('./images/bg-pattern-quotation.svg') no-repeat;
+    background-position-x: 85%;
+    background-color: hsl(263, 55%, 52%);
+}
+
+#img-text-white h1 {
+    color: hsl(0, 0%, 100%);
+}
+
+#img-text-blue h1 {
+    color:hsl(217, 19%, 35%);
+}
+
+#container-two {
+    background-color: hsl(217, 19%, 35%);
+}
+
+#container-three {
+    background-color: hsl(0, 0%, 100%);
+    border: 2px solid white;
+    border-radius: 5px;
+}
+
+#container-text-blue h1 {
+    color: hsl(217, 19%, 35%);
+    font-size: 20px;
+}
+
+#container-four {
+    background-color: hsl(219, 29%, 14%);
+}
+
+#container-five {
+    background-color: hsl(0, 0%, 100%);
+    border: 2px solid white;
+    border-radius: 5px;
+}
+
+/* .container:nth-child(1) {
+    grid-area: one;
+}
+
+.container:nth-child(2) {
+    grid-area: two;
+}
+
+.container:nth-child(3) {
+    grid-area: three;
+}
+
+.container:nth-child(4) {
+    grid-area: four;
+}
+
+.main:nth-child(5) {
+    grid-area: five;
+} */
+
+
+@media only screen and (min-width: 1024px) {
+    /* .main {
+        grid-template-areas: 
+         'one one two five'
+         'three four four five'
+    } */
+
+    .grid-col-span-2 {
+        grid-column: span 2;
+    }
+
+    .main {
+        padding: 20px 10px 10px 20px;
+        display: grid;
+        gap: 1.5rem;
+        grid-template-columns: repeat(4, 1fr);
+         
+    }
+
+    .container:last-child {
+        grid-column-start: 4;
+        grid-row-start: 1;
+        grid-row-end: span 2;
+    }
+}
